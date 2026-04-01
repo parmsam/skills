@@ -16,6 +16,24 @@ Skills for using parmsam's Quarto extensions in your documents and presentations
 
 ## Installation
 
+### Using `npx skills add` (Any Agent)
+
+Install skills from this repository into any supported coding agent (Claude Code, Codex, Cursor, Cline, and [many more](https://github.com/vercel-labs/skills)) using the `npx skills add` CLI:
+
+```bash
+# List available skills without installing
+npx skills add parmsam/skills --list
+
+# Install skills via an interactive menu
+npx skills add parmsam/skills --all
+
+# Install specific skills by category name
+npx skills add parmsam/skills --skill quarto-quiz --skill quarto-flashcards
+
+# Install to Claude Code only, globally
+npx skills add parmsam/skills --agent claude-code --global
+```
+
 ### Claude Code
 
 #### Method 1: Add Marketplace
