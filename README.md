@@ -13,6 +13,13 @@ Skills for using parmsam's Quarto extensions in your documents and presentations
 - **[quarto-quiz](./quarto-extensions/quarto-quiz/)** - Add interactive multiple-choice quiz slides to Quarto RevealJS presentations
 - **[quarto-flashcards](./quarto-extensions/quarto-flashcards/)** - Create interactive flip-card study presentations in Quarto RevealJS
 - **[quarto-quizdown](./quarto-extensions/quarto-quizdown/)** - Embed interactive quizzes in Quarto HTML documents using quizdown syntax
+- **[quarto-excalidraw](./quarto-extensions/quarto-excalidraw/)** - Embed an Excalidraw whiteboard canvas in Quarto RevealJS presentations
+- **[quarto-github-corner](./quarto-extensions/quarto-github-corner/)** - Add a GitHub corner SVG badge to Quarto HTML documents
+- **[quarto-brainmade](./quarto-extensions/quarto-brainmade/)** - Add the Brainmade (human-made) mark via shortcode
+- **[quarto-tts](./quarto-extensions/quarto-tts/)** - Text-to-speech narration for RevealJS using the Web Speech API
+- **[quarto-subtitles](./quarto-extensions/quarto-subtitles/)** - Live speech-recognition subtitles for RevealJS presentations
+- **[quarto-speech](./quarto-extensions/quarto-speech/)** - Voice-controlled slide navigation for RevealJS presentations
+- **[quarto-webcam](./quarto-extensions/quarto-webcam/)** - Embed a live webcam video feed in RevealJS slides
 
 ## Installation
 
@@ -93,7 +100,7 @@ Once installed, Claude will automatically activate relevant skills based on your
 
 | Category | Description |
 |----------|-------------|
-| **quarto-extensions** | Skills for using parmsam's Quarto extensions (quiz, flashcards, quizdown) |
+| **quarto-extensions** | Skills for using parmsam's Quarto extensions (quiz, flashcards, quizdown, excalidraw, github-corner, brainmade, tts, subtitles, speech, webcam) |
 
 ## Resources
 
