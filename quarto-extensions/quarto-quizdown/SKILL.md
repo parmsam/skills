@@ -100,6 +100,30 @@ shuffle_answers: true
 - Images: `![alt](url)`
 - LaTeX math: `$$E = mc^2$$`
 
+## Using with RevealJS
+
+The quizdown widget is sized for a full browser viewport by default and will overflow a RevealJS slide frame without a CSS fix. Add a custom CSS file to the presentation and include this rule:
+
+```css
+.reveal .quizdown {
+  font-size: 0.65em;
+  max-height: 75vh;
+  overflow-y: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+```
+
+Reference the CSS file in the YAML header:
+
+```yaml
+format:
+  revealjs:
+    css: custom.css
+filters:
+  - quizdown
+```
+
 ## Multiple Quizzes in One Document
 
 Use multiple `quizdown` code blocks — each renders as a separate independent quiz:
