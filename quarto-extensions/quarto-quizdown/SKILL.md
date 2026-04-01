@@ -14,7 +14,7 @@ Install with:
 quarto add parmsam/quarto-quizdown
 ```
 
-Requires Quarto >= 1.6.0 and an HTML output format. Does not work with RevealJS or PDF.
+Requires Quarto >= 1.6.0 and an HTML-based output format. Works with standard HTML documents and RevealJS presentations (both are `html:js` formats). Does not work with PDF or other non-HTML formats.
 
 ## Document Setup
 
