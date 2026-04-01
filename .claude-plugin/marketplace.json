@@ -1,0 +1,13 @@
+{
+  "source": "./",
+  "plugins": [
+    {
+      "name": "quarto-extensions",
+      "skills": [
+        "./quarto-extensions/quarto-quiz",
+        "./quarto-extensions/quarto-flashcards",
+        "./quarto-extensions/quarto-quizdown"
+      ]
+    }
+  ]
+}
