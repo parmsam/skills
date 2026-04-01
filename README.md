@@ -6,6 +6,13 @@ Claude Skills extend Claude's capabilities with specialized knowledge and workfl
 
 ## Available Skills
 
+### R Packages
+
+Skills for using parmsam's R packages.
+
+- **[dir2json](./r-packages/dir2json/)** - Convert a directory to JSON and decode JSON back into a directory structure
+- **[lzstring](./r-packages/lzstring/)** - Compress and decompress strings using LZ-based compression
+
 ### Quarto Extensions
 
 Skills for using parmsam's Quarto extensions in your documents and presentations.
@@ -101,6 +108,7 @@ Once installed, Claude will automatically activate relevant skills based on your
 | Category | Description |
 |----------|-------------|
 | **quarto-extensions** | Skills for using parmsam's Quarto extensions (quiz, flashcards, quizdown, excalidraw, github-corner, brainmade, tts, subtitles, speech, webcam) |
+| **r-packages** | Skills for using parmsam's R packages (dir2json, lzstring) |
 
 ## Resources
 

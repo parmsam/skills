@@ -15,6 +15,13 @@
         "./quarto-extensions/quarto-speech",
         "./quarto-extensions/quarto-webcam"
       ]
+    },
+    {
+      "name": "r-packages",
+      "skills": [
+        "./r-packages/dir2json",
+        "./r-packages/lzstring"
+      ]
     }
   ]
 }
