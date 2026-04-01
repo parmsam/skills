@@ -6,7 +6,14 @@
       "skills": [
         "./quarto-extensions/quarto-quiz",
         "./quarto-extensions/quarto-flashcards",
-        "./quarto-extensions/quarto-quizdown"
+        "./quarto-extensions/quarto-quizdown",
+        "./quarto-extensions/quarto-excalidraw",
+        "./quarto-extensions/quarto-github-corner",
+        "./quarto-extensions/quarto-brainmade",
+        "./quarto-extensions/quarto-tts",
+        "./quarto-extensions/quarto-subtitles",
+        "./quarto-extensions/quarto-speech",
+        "./quarto-extensions/quarto-webcam"
       ]
     }
   ]
