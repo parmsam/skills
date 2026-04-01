@@ -114,11 +114,12 @@ The quizdown widget is sized for a full browser viewport by default and will ove
 }
 ```
 
-Reference the CSS file in the YAML header:
+Reference the CSS file in the YAML header and enable `scrollable: true` — without it, RevealJS clips the slide and `overflow-y: auto` on the quizdown div has no effect:
 
 ```yaml
 format:
   revealjs:
+    scrollable: true
     css: custom.css
 filters:
   - quizdown
