@@ -17,6 +17,15 @@
       ]
     },
     {
+      "name": "quarto-extension-dev",
+      "skills": [
+        "./quarto-extension-dev/quarto-ext-overview",
+        "./quarto-extension-dev/quarto-ext-lua",
+        "./quarto-extension-dev/quarto-ext-formats",
+        "./quarto-extension-dev/quarto-ext-distributing"
+      ]
+    },
+    {
       "name": "r-packages",
       "skills": [
         "./r-packages/dir2json",

@@ -28,6 +28,15 @@ Skills for using parmsam's Quarto extensions in your documents and presentations
 - **[quarto-speech](./quarto-extensions/quarto-speech/)** - Voice-controlled slide navigation for RevealJS presentations
 - **[quarto-webcam](./quarto-extensions/quarto-webcam/)** - Embed a live webcam video feed in RevealJS slides
 
+### Quarto Extension Development
+
+Skills for **creating** Quarto extensions — filters, shortcodes, custom formats, and distribution.
+
+- **[quarto-ext-overview](./quarto-extension-dev/quarto-ext-overview/)** - Extension types, `_extensions/` structure, `_extension.yml`, and scaffold commands
+- **[quarto-ext-lua](./quarto-extension-dev/quarto-ext-lua/)** - Writing filters and shortcodes in Lua, Pandoc AST, and the Quarto Lua API
+- **[quarto-ext-formats](./quarto-extension-dev/quarto-ext-formats/)** - Custom output formats, journal article formats, and RevealJS plugins
+- **[quarto-ext-distributing](./quarto-extension-dev/quarto-ext-distributing/)** - Publishing to GitHub, `quarto add`, versioning, and starter templates
+
 ## Installation
 
 ### Using `npx skills add` (Any Agent)
@@ -108,6 +117,7 @@ Once installed, Claude will automatically activate relevant skills based on your
 | Category | Description |
 |----------|-------------|
 | **quarto-extensions** | Skills for using parmsam's Quarto extensions (quiz, flashcards, quizdown, excalidraw, github-corner, brainmade, tts, subtitles, speech, webcam) |
+| **quarto-extension-dev** | Skills for creating Quarto extensions (overview, Lua/filters/shortcodes, custom formats, distribution) |
 | **r-packages** | Skills for using parmsam's R packages (dir2json, lzstring) |
 
 ## Resources
