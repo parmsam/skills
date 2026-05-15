@@ -31,6 +31,12 @@
         "./r-packages/dir2json",
         "./r-packages/lzstring"
       ]
+    },
+    {
+      "name": "tools",
+      "skills": [
+        "./tools/defuddle"
+      ]
     }
   ]
 }
