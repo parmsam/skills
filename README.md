@@ -28,6 +28,12 @@ Skills for using parmsam's Quarto extensions in your documents and presentations
 - **[quarto-speech](./quarto-extensions/quarto-speech/)** - Voice-controlled slide navigation for RevealJS presentations
 - **[quarto-webcam](./quarto-extensions/quarto-webcam/)** - Embed a live webcam video feed in RevealJS slides
 
+### Tools
+
+General-purpose CLI and web utility skills.
+
+- **[defuddle](./tools/defuddle/)** - Fetch a URL as clean raw markdown using defuddle.md
+
 ### Quarto Extension Development
 
 Skills for **creating** Quarto extensions — filters, shortcodes, custom formats, and distribution.
@@ -119,6 +125,7 @@ Once installed, Claude will automatically activate relevant skills based on your
 | **quarto-extensions** | Skills for using parmsam's Quarto extensions (quiz, flashcards, quizdown, excalidraw, github-corner, brainmade, tts, subtitles, speech, webcam) |
 | **quarto-extension-dev** | Skills for creating Quarto extensions (overview, Lua/filters/shortcodes, custom formats, distribution) |
 | **r-packages** | Skills for using parmsam's R packages (dir2json, lzstring) |
+| **tools** | General-purpose CLI and web utilities (defuddle) |
 
 ## Resources
 
