@@ -6,7 +6,6 @@ description: >
   ref-sources/ folder. Trigger phrases include "fetch with defuddle", "get the
   markdown for", "save to ref-sources", or any request to fetch a URL as clean
   markdown without AI summarization.
-disable-model-invocation: true
 allowed-tools: Bash, Write, Read, Glob
 ---
 
