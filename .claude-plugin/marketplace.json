@@ -35,7 +35,9 @@
     {
       "name": "tools",
       "skills": [
-        "./tools/defuddle"
+        "./tools/defuddle",
+        "./tools/defuddle-cli",
+        "./tools/qmd-url-defuddle"
       ]
     }
   ]

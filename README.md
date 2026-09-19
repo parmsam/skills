@@ -33,6 +33,8 @@ Skills for using parmsam's Quarto extensions in your documents and presentations
 General-purpose CLI and web utility skills.
 
 - **[defuddle](./tools/defuddle/)** - Fetch a URL as clean raw markdown using defuddle.md
+- **[defuddle-cli](./tools/defuddle-cli/)** - Fetch a URL as clean markdown using the local Defuddle CLI, no hosted proxy required
+- **[qmd-url-defuddle](./tools/qmd-url-defuddle/)** - Extract URLs from a .qmd file and fetch each as clean markdown into a local knowledge base
 
 ### Quarto Extension Development
 
