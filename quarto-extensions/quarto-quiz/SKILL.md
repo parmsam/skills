@@ -65,12 +65,25 @@ revealjs-plugins:
 - [$\pi d$]{data-explanation="That's the circumference using diameter."}
 ```
 
+**Question in the slide body, not the title** — use when the question is too long for a heading, needs code/content before it, or you'd rather leave the title blank or generic:
+```markdown
+## {.quiz-question}
+**What is the name of Ross and Carol's son in the TV show *"Friends"?***
+
+- [Jack]{data-explanation="Jack is the name of Monica and Ross's father."}
+- [Ben]{.correct}
+- [Chandler]{data-explanation="Chandler is another main character."}
+```
+
+The title can also stay short/generic while the real question sits in the body — e.g. a `## Python lists {.quiz-question}` heading followed by a code block and then "What is the value of x[2]?" as body text above the options. The `{.quiz-question}` class on the heading is what makes the slide a quiz slide either way — the heading text itself is just a label and can be empty, generic, or the full question.
+
 ## Key Rules
 
-- Slide must have `{.quiz-question}` class to be treated as a quiz slide
+- Slide must have `{.quiz-question}` class to be treated as a quiz slide — the heading text is optional; the question can instead (or also) live in the slide body
 - Wrap the correct answer(s) with `[text]{.correct}`
 - Add `{.quiz-multiple}` for select-all-that-apply questions
 - Add `{data-explanation="..."}` to any option to show a hint after checking
+- Options support images (`![](url){width=90px}`) and LaTeX math (`$\pi r^2$`) as well as plain text
 - Non-quiz slides in the same deck work normally
 
 ## Configuration Options
